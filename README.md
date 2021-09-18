@@ -1,41 +1,17 @@
 # <p align="center">Design Patterns + DDD</p>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat-square&logo=docker&color=2496ED" alt="Docker" />
-    <img src="https://img.shields.io/badge/Code-React-informational?style=flat-square&logo=react&color=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Code-Go-informational?style=flat-square&logo=go&color=00ADD8" alt="Go" />
-    <img src="https://img.shields.io/badge/Code-PHP-informational?style=flat-square&logo=php&color=777bb4&logoColor=8892BF" alt="PHP" />
-    <img src="https://img.shields.io/badge/Code-Laravel-informational?style=flat-square&logo=laravel&color=FF2D20" alt="Laravel" />
-    <img src="https://img.shields.io/badge/Code-Lumen-informational?style=flat-square&logo=lumen&color=F4645F" alt="Lumen" />
-    <img src="https://img.shields.io/badge/Code-JavaScript-informational?style=flat-square&logo=javascript&color=F7DF1E" alt="JavaScript" />
-    <img src="https://img.shields.io/badge/Code-NodeJS-informational?style=flat-square&logo=node.js&color=339933" alt="NodeJS" />
-    <img src="https://img.shields.io/badge/Tools-MySQL-informational?style=flat-square&logo=mysql&color=4479A1&logoColor=2496ED" alt="MySQL" />
-    <img src="https://img.shields.io/badge/Tools-SQLServer-informational?style=flat-square&logo=microsoft-sql-server&color=CC2927&logoColor=CC2927" alt="SQLServer" />
-    <img src="https://img.shields.io/badge/php-8.0-green" alt="PHP"/>
-    <img src="https://img.shields.io/badge/lumen-8.0-orange" alt="Lumen"/>
-    <img src="https://img.shields.io/badge/nodejs-15.0-green" alt="NodeJS"/>
+    <img src="https://img.shields.io/badge/Tools-TypeScript-informational?style=flat-square&logo=typescript&color=3178C6" alt="TypeScript" />
 </p>
 
 ## 💬 About
 
-This project was developed following [Design Patterns para DDD](https://www.youtube.com/watch?v=aBZvS-1N_ys{{ COURSE_LINK }}ab_channel=FullCycle) video.
+This project was developed following FullCycle & Rodrigo Branas [Design Patterns para DDD](https://www.youtube.com/watch?v=aBZvS-1N_ys{{ COURSE_LINK }}ab_channel=FullCycle) video.
 
 ## :computer: Technologies
 
-- [PHP](https://www.php.net/)
-- [Go](https://golang.org/)
-- [Node.js](https://nodejs.org/en/)
-- [Nginx](https://www.nginx.com/)
-- [MySQL](https://www.mysql.com/)
-- [Node MySQL2](https://www.npmjs.com/package/mysql2)
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-- [Dockerize](https://github.com/jwilder/dockerize)
-
-## :scroll: Requirements
-
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Jest](https://jestjs.io/)
 
 ## :cd: Installation
 
