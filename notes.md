@@ -16,3 +16,5 @@ npm i -D jest ts-jest @types/jest
 npx ts-jest config:init
 npm test
 ```
+
+Builder -> separate creation complex from object instantiation
