@@ -1,0 +1,13 @@
+{
+    "version": "0.20.0",
+    "username": "Filipe Leuch Bonfim",
+    "github_username": "filipe1309",
+    "project_name": "Design Patterns + DDD",
+    "project_repo_name": "fc-design-patterns-ddd",
+    "project_repo_link": "https://github.com/filipe1309/fc-design-patterns-ddd.git",
+    "course_name": "Design Patterns para DDD",
+    "course_link": "https://www.youtube.com/watch?v=aBZvS-1N_ys&ab_channel=FullCycle",
+    "course_type": "video",
+    "course_multiple": "false",
+    "vcs": "true"
+}
