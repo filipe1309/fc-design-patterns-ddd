@@ -23,22 +23,25 @@ git clone git@github.com:filipe1309/fc-design-patterns-ddd.git
 cd fc-design-patterns-ddd
 ```
 
-## :runner: Running
+```sh
+npm run build
+```
+
+<!-- ## :runner: Running
 
 ```sh
-docker-compose up
-```
+npm start
+``` -->
 
 > Access http://localhost
 
-<!-- ## :white_check_mark: Tests
-
-After up the container:
+## :white_check_mark: Tests
 
 ```sh
-docker-compose exec -t {{ CONTAINER_SERVICE_NAME }} ./vendor/bin/phpunit
+npm run test
 ```
 
+<!--
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
