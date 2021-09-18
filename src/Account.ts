@@ -1,11 +1,11 @@
 import AccountBuilder from "./AccountBuilder";
 
 export default class Account {
-    bank: string | undefined;
-    branch: string | undefined;
-    account: string | undefined;
-    document: string;
-    balance: number;
+    private bank: string | undefined;
+    private branch: string | undefined;
+    private account: string | undefined;
+    private document: string;
+    private balance: number;
 
     constructor (accountBuilder: AccountBuilder) {
         this.bank = accountBuilder.bank;
@@ -17,6 +17,10 @@ export default class Account {
 
     credit(amount: number) {
         this.balance += amount;
+    }
+
+    debit(amount: number) {
+        this.balance -= amount;
     }
 
     getBalance() {
