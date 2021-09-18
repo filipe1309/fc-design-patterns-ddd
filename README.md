@@ -6,7 +6,7 @@
 
 ## 💬 About
 
-This project was developed following FullCycle & Rodrigo Branas [Design Patterns para DDD](https://www.youtube.com/watch?v=aBZvS-1N_ys{{ COURSE_LINK }}ab_channel=FullCycle) video.
+This project was developed following FullCycle & Rodrigo Branas [Design Patterns para DDD](https://www.youtube.com/watch?v=aBZvS-1N_ys&ab_channel=FullCycle) video.
 
 ## :computer: Technologies
 
