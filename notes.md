@@ -5,6 +5,8 @@
 <!-- https://gitignore.io -->
 <!-- https://github.com/github/gitignore -->
 
+https://github.com/rodrigobranas/designpatterns_ddd_fullcycle
+
 https://itnext.io/testing-with-jest-in-typescript-cc1cd0095421
 
 ```sh
@@ -18,3 +20,6 @@ npm test
 ```
 
 Builder -> separate creation complex from object instantiation
+
+Account -> Entity
+Transaction -> Value object

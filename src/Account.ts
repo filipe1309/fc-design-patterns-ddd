@@ -28,6 +28,7 @@ export default class Account {
         let balance = 0;
 
         for(const transaction of this.transactions) {
+            // TODO: Refactor to be more generic (OPP)
             if (transaction.type == "credit") {
                 balance += transaction.amount;
             }
