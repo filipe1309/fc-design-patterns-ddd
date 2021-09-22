@@ -1,4 +1,7 @@
 import AccountBuilder from "./AccountBuilder";
+import CreditCommand from "./CreditCommand";
+import DebitCommand from "./DebitCommand";
+import TransferCommand from "./TransferCommand";
 import TransferService from "./TransferService";
 
 test("Should create an account", function() {
@@ -17,7 +20,10 @@ test("Should create an account and credit", function() {
         .setBranch("0001")
         .setAccount("123456-7")
         .build();
-    account.credit(1000);
+    
+    const creditCommand = new CreditCommand(account, 1000);
+    creditCommand.execute(); // Command pattern, the execute method could be called from any class, queue, or other
+
     expect(account.getBalance()).toBe(1000);
 });
 
@@ -28,8 +34,13 @@ test("Should create an account and debit", function() {
         .setBranch("0001")
         .setAccount("123456-7")
         .build();
-    account.credit(1000);
-    account.debit(500);
+    
+    const creditCommand = new CreditCommand(account, 1000);
+    creditCommand.execute();
+
+    const debitCommand = new DebitCommand(account, 500);
+    debitCommand.execute();
+
     expect(account.getBalance()).toBe(500);
 });
 
@@ -44,11 +55,16 @@ test("Should create 2 accounts and tranfer between them", function() {
         .setBranch("0001")
         .setAccount("987654-3")
         .build();
-    accountFrom.credit(1000);
-    accountTo.credit(500);
+
+    const creditCommandFrom = new CreditCommand(accountFrom, 1000);
+    creditCommandFrom.execute();
     
-    const tranferService = new TransferService();
-    tranferService.transfer(accountFrom, accountTo, 700);
+    const creditCommandTo = new CreditCommand(accountTo, 500);
+    creditCommandTo.execute();
+    
+    const transferCommand = new TransferCommand(accountFrom, accountTo, 700);
+    transferCommand.execute();
+
     expect(accountFrom.getBalance()).toBe(300);
     expect(accountTo.getBalance()).toBe(1200);
 });
