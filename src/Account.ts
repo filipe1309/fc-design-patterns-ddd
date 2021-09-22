@@ -5,7 +5,7 @@ export default class Account {
     private bank: string | undefined;
     private branch: string | undefined;
     private account: string | undefined;
-    private document: string;
+    document: string;
     private transactions: Transaction[];
 
     constructor (accountBuilder: AccountBuilder) {
