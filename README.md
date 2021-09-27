@@ -9,6 +9,17 @@
 
 This project was developed following FullCycle & Rodrigo Branas [Design Patterns para DDD](https://www.youtube.com/watch?v=aBZvS-1N_ys&ab_channel=FullCycle) video.
 
+### 🔁 Patterns
+
+- Pub/Sub
+- Observer
+- Builder
+- Command
+- Command Handler
+- Application Service
+- Service
+- Repository
+
 ## :computer: Technologies
 
 - [TypeScript](https://www.typescriptlang.org/)
