@@ -1,9 +1,9 @@
-import AccountBuilder from "./AccountBuilder";
-import AccountRepository from "./AccountRepository";
-import CreditCommand from "./CreditCommand";
-import DebitCommand from "./DebitCommand";
-import TransferCommand from "./TransferCommand";
-import Publisher from "./Publisher";
+import AccountBuilder from "../../domain/builder/AccountBuilder";
+import AccountRepository from "../../domain/repository/AccountRepository";
+import CreditCommand from "../command/CreditCommand";
+import DebitCommand from "../command/DebitCommand";
+import TransferCommand from "../command/TransferCommand";
+import Publisher from "../../infra/queue/Publisher";
 
 export default class AccountApplicationService {
     

@@ -1,4 +1,4 @@
-import Account from "./Account";
+import Account from "../../domain/entity/Account";
 import Command from "./Command";
 
 export default class DebitCommand implements Command {
