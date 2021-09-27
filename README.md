@@ -1,7 +1,8 @@
-# <p align="center">Design Patterns + DDD</p>
+# <p align="center">Design Patterns + DDD & Clean Architecture</p>
 
 <p align="center">
     <img src="https://img.shields.io/badge/Tools-TypeScript-informational?style=flat-square&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Test-Jest-informational?style=flat-square&logo=jest&color=C21325" alt="Jest" />
 </p>
 
 ## 💬 About
